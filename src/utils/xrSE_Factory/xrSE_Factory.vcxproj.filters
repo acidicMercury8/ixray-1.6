@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{e999fb34-34ee-46da-9832-4e6116421ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e06ba963-fe29-46fe-8eb8-cb0bf5d74629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\AComponents">
+      <UniqueIdentifier>{f64a51c3-0961-4b6c-99e9-da55fbb8cd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\AComponents\SpaceRestrictionManager">
+      <UniqueIdentifier>{b4fb7059-0f14-4893-8792-8a0ff39ae3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ASound">
+      <UniqueIdentifier>{810006fc-a690-4480-88e1-fa22427b8565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ASpace">
+      <UniqueIdentifier>{83b9e61a-e71c-4a7d-aceb-95346c7bf24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectBroker">
+      <UniqueIdentifier>{85ed21af-ee51-4021-9234-b29a3834ab3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectFactory">
+      <UniqueIdentifier>{d35d4b20-f142-4798-a07f-626e9176cde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectFactory\object_item_abstract">
+      <UniqueIdentifier>{ee15f102-4f0d-4374-a963-21390ff8a0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectFactory\object_item_client_server">
+      <UniqueIdentifier>{297bec63-254c-4048-aac4-4c7ce8d79339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectFactory\object_item_script">
+      <UniqueIdentifier>{9b899a1d-94e6-42c4-bb49-ad60806d28a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ObjectFactory\object_item_single">
+      <UniqueIdentifier>{fcc814d1-0caa-4261-8887-8e645a433a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\SmartCast">
+      <UniqueIdentifier>{d57c77a6-13f3-4f50-b94e-8a56aac7852a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\associative_vector">
+      <UniqueIdentifier>{fb644c05-b546-4839-a324-6f0f8e4536fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{1bf7f377-a3e1-4afb-a907-c94ee7ca0fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses">
+      <UniqueIdentifier>{8948485a-ad34-4d34-bd86-3e7167fa0d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptFmatrix">
+      <UniqueIdentifier>{b0439912-ec37-4dce-a812-7724b45a525c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptFvector">
+      <UniqueIdentifier>{a747cc72-7eb2-4671-89f1-b0336a7c9bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptIniFile">
+      <UniqueIdentifier>{03e9c6ec-e9b0-4c82-9d9b-38871e563d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptIniFile\ScriptTokenList">
+      <UniqueIdentifier>{ec252cf7-0aa6-4b94-9506-860b6a42a387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptIniFile\ScriptRTokenList">
+      <UniqueIdentifier>{ee3056b1-0b81-4b96-a748-e360a85e06ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptNetPacket">
+      <UniqueIdentifier>{d1c99879-f83a-44f7-94b1-f24b2ce350ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptSoundType">
+      <UniqueIdentifier>{f35eb861-86a3-40b3-a19c-ab0c82ca4556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptFlags">
+      <UniqueIdentifier>{3b5abc99-4756-4d87-993b-9c65894cdaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptClasses\ScriptReader">
+      <UniqueIdentifier>{1dbcf2b3-bc66-4886-a811-79b06573d40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptEngine">
+      <UniqueIdentifier>{d3918437-c272-4227-9242-1bc20b563ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptStorage">
+      <UniqueIdentifier>{34553946-31f3-416f-ab82-111515b024dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptProcess">
+      <UniqueIdentifier>{c69be68b-e3b4-40ae-af35-1dd0fc0479f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptThread">
+      <UniqueIdentifier>{dbb51e69-c9b8-4e76-99d7-c91168e22c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptThread\ScriptStackTracker">
+      <UniqueIdentifier>{953d1a86-4988-4275-8c98-abe82890fb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\ScriptDebugger">
+      <UniqueIdentifier>{4918378a-eb81-4b52-936b-3d02cd8bb15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\lua_studio">
+      <UniqueIdentifier>{d34d1d08-085d-4954-9301-dd538ecdaf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff">
+      <UniqueIdentifier>{ccb9a41a-ef7e-46e6-b3ee-2e1e71f51ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common">
+      <UniqueIdentifier>{3ac969df-d873-4f6b-ba13-5106cd895922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\ALifeStuff">
+      <UniqueIdentifier>{e60337ad-3002-4878-bb3c-e4bb4286188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\ALifeStuff\artefact_order">
+      <UniqueIdentifier>{e6a3a705-c916-41b2-94ea-6086600ea31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\ALifeStuff\human_brain">
+      <UniqueIdentifier>{84e9b1cb-2305-43bf-ba7d-1a923ca5257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\ALifeStuff\monster_brain">
+      <UniqueIdentifier>{d7631948-0479-4adc-a659-8eed3b216e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\GameStuff">
+      <UniqueIdentifier>{1dc7c9fe-a0e3-489c-9a47-27c7a9ff5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\NetworkStuff">
+      <UniqueIdentifier>{45f1d9d5-999e-436a-8db6-cb490a0c8048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\PhysicsStuff">
+      <UniqueIdentifier>{c321560d-e2a1-45b5-8ba3-5b1e90dfbcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\Common\ServerStuff">
+      <UniqueIdentifier>{4bdefd65-2285-4900-a363-40a02891dd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerFactory">
+      <UniqueIdentifier>{92e49a04-c022-4790-9b0d-813669350746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities">
+      <UniqueIdentifier>{6d638eff-9309-49bd-b8cb-4523ba8bbf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\objects">
+      <UniqueIdentifier>{32d219b8-072a-4a7b-b4ca-4c179d704780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\objects_alife">
+      <UniqueIdentifier>{4e168638-a007-464a-ada3-cbc5f08e9aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\objects_alife_items">
+      <UniqueIdentifier>{f47fa41c-08fa-4dc7-8361-b459971e4070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\objects_alife_monsters">
+      <UniqueIdentifier>{974308e7-ba80-4909-9b3f-9532d1aee716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\editor_properties">
+      <UniqueIdentifier>{7802c296-39b5-4b1b-849c-75ab86041ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\scripts">
+      <UniqueIdentifier>{d81ebb7d-3098-4876-8eb1-528feabbcce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\scripts\script_value">
+      <UniqueIdentifier>{0e988de5-99aa-4442-b555-9b23caca67e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\scripts\script_value_wrapper">
+      <UniqueIdentifier>{161f484c-eaf8-4ccb-81de-ffebb05202aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\scripts\script_value_container">
+      <UniqueIdentifier>{4e14102b-22be-42df-b65d-be7915bf2f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\scripts\script_properties_list_helper">
+      <UniqueIdentifier>{9bce9eb4-f957-4a4e-98c6-8670f8d3ec5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\objects_alife_smartcover">
+      <UniqueIdentifier>{db2edb5f-72c7-4ade-8d7d-bd8047f8725d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerStuff\ServerEntities\movement_manager_holder">
+      <UniqueIdentifier>{32a1ed83-9650-463c-98e4-7e7c6186c5d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\xrServerEntities\DrawUtils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\pch_script.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xr_LuaAllocator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xrSE_Factory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xrSE_Factory_import_export.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\FastDelegate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\restriction_space.h">
+      <Filter>Common\AComponents\SpaceRestrictionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\ai_sounds.h">
+      <Filter>Common\ASound</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_space.h">
+      <Filter>Common\ASpace</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_space_inline.h">
+      <Filter>Common\ASpace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_broker.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_cloner.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_comparer.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_destroyer.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_interfaces.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_loader.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_saver.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_type_traits.h">
+      <Filter>Common\ObjectBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\clsid_game.h">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_factory.h">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_factory_impl.h">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_factory_inline.h">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_factory_space.h">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_abstract.h">
+      <Filter>Common\ObjectFactory\object_item_abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_abstract_inline.h">
+      <Filter>Common\ObjectFactory\object_item_abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_client_server.h">
+      <Filter>Common\ObjectFactory\object_item_client_server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_client_server_inline.h">
+      <Filter>Common\ObjectFactory\object_item_client_server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_script.h">
+      <Filter>Common\ObjectFactory\object_item_script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_script_inline.h">
+      <Filter>Common\ObjectFactory\object_item_script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_single.h">
+      <Filter>Common\ObjectFactory\object_item_single</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\object_item_single_inline.h">
+      <Filter>Common\ObjectFactory\object_item_single</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\smart_cast.h">
+      <Filter>Common\SmartCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\smart_cast_impl0.h">
+      <Filter>Common\SmartCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\smart_cast_impl1.h">
+      <Filter>Common\SmartCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\smart_cast_impl2.h">
+      <Filter>Common\SmartCast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\associative_vector.h">
+      <Filter>Common\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\associative_vector_compare_predicate.h">
+      <Filter>Common\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\associative_vector_compare_predicate_inline.h">
+      <Filter>Common\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\associative_vector_inline.h">
+      <Filter>Common\associative_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_export_macroses.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_export_space.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_space_forward.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="script_space.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_fmatrix.h">
+      <Filter>Scripts\ScriptClasses\ScriptFmatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_fcolor.h">
+      <Filter>Scripts\ScriptClasses\ScriptFvector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_fvector.h">
+      <Filter>Scripts\ScriptClasses\ScriptFvector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_ini_file.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_ini_file_inline.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_token_list.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptTokenList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_token_list_inline.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptTokenList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_rtoken_list.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptRTokenList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_rtoken_list_inline.h">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptRTokenList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_net_packet.h">
+      <Filter>Scripts\ScriptClasses\ScriptNetPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_sound_type.h">
+      <Filter>Scripts\ScriptClasses\ScriptSoundType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_flags.h">
+      <Filter>Scripts\ScriptClasses\ScriptFlags</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_reader.h">
+      <Filter>Scripts\ScriptClasses\ScriptReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_engine.h">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_engine_export.h">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_engine_inline.h">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_engine_space.h">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_storage.h">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_storage_inline.h">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_storage_space.h">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\opt.lua.h">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\opt_inline.lua.h">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_process.h">
+      <Filter>Scripts\ScriptProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_process_inline.h">
+      <Filter>Scripts\ScriptProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_thread.h">
+      <Filter>Scripts\ScriptThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_thread_inline.h">
+      <Filter>Scripts\ScriptThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_stack_tracker.h">
+      <Filter>Scripts\ScriptThread\ScriptStackTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_stack_tracker_inline.h">
+      <Filter>Scripts\ScriptThread\ScriptStackTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\mslotutils.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_callStack.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_debugger.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_debugger_messages.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_debugger_threads.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_lua_helper.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="script_debugger_utils.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="script_file.h">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\lua_studio.h">
+      <Filter>Scripts\lua_studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_space.h">
+      <Filter>ServerStuff\Common\ALifeStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\game_graph_space.h">
+      <Filter>ServerStuff\Common\ALifeStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="alife_artefact_order.h">
+      <Filter>ServerStuff\Common\ALifeStuff\artefact_order</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_human_brain.h">
+      <Filter>ServerStuff\Common\ALifeStuff\human_brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_human_brain_inline.h">
+      <Filter>ServerStuff\Common\ALifeStuff\human_brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_monster_brain.h">
+      <Filter>ServerStuff\Common\ALifeStuff\monster_brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_monster_brain_inline.h">
+      <Filter>ServerStuff\Common\ALifeStuff\monster_brain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\game_base_space.h">
+      <Filter>ServerStuff\Common\GameStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\inventory_space.h">
+      <Filter>ServerStuff\Common\GameStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="bone.h">
+      <Filter>ServerStuff\Common\GameStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="client_id.h">
+      <Filter>ServerStuff\Common\NetworkStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="NET_Compressor.h">
+      <Filter>ServerStuff\Common\NetworkStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="NET_utils.h">
+      <Filter>ServerStuff\Common\NetworkStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\PHNetState.h">
+      <Filter>ServerStuff\Common\PhysicsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\PHSynchronize.h">
+      <Filter>ServerStuff\Common\PhysicsStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\character_info.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\character_info_defs.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\shared_data.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\specific_character.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xml_str_id_loader.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrMessages.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Space.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="xrUIXmlParser.h">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\InfoPortionDefs.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\ShapeData.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_Abstract.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_ALife_All.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_script_macroses.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\gametype_chooser.h">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Object_Base.h">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects.h">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_ALife.h">
+      <Filter>ServerStuff\ServerEntities\objects_alife</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_ALife_Items.h">
+      <Filter>ServerStuff\ServerEntities\objects_alife_items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_ALife_Monsters.h">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\ItemListTypes.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\PropertiesListTypes.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\WaveForm.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrEProps.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseTypes.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="xrCDB.h">
+      <Filter>ServerStuff\ServerEntities\editor_properties</Filter>
+    </ClInclude>
+    <ClInclude Include="script_value.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value</Filter>
+    </ClInclude>
+    <ClInclude Include="script_value_inline.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value</Filter>
+    </ClInclude>
+    <ClInclude Include="script_value_wrapper.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value_wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="script_value_wrapper_inline.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value_wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_value_container.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value_container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\script_value_container_impl.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_value_container</Filter>
+    </ClInclude>
+    <ClInclude Include="script_properties_list_helper.h">
+      <Filter>ServerStuff\ServerEntities\scripts\script_properties_list_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\xrServer_Objects_Alife_Smartcovers.h">
+      <Filter>ServerStuff\ServerEntities\objects_alife_smartcover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xrServerEntities\alife_movement_manager_holder.h">
+      <Filter>ServerStuff\ServerEntities\movement_manager_holder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\xrServerEntities\pch_script.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="xr_LuaAllocator.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="xrSE_Factory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_space.cpp">
+      <Filter>Common\ASpace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\object_factory.cpp">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\object_factory_register.cpp">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\object_factory_script.cpp">
+      <Filter>Common\ObjectFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\object_item_script.cpp">
+      <Filter>Common\ObjectFactory\object_item_script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\smart_cast.cpp">
+      <Filter>Common\SmartCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\smart_cast_stats.cpp">
+      <Filter>Common\SmartCast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_fmatrix_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptFmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_fcolor_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptFvector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_fvector_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptFvector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_ini_file.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_ini_file_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_token_list.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptTokenList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_token_list_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptTokenList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_rtoken_list_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptIniFile\ScriptRTokenList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_net_packet_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptNetPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_sound_type_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptSoundType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_flags_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptFlags</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_reader_script.cpp">
+      <Filter>Scripts\ScriptClasses\ScriptReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_engine.cpp">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_engine_export.cpp">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_engine_script.cpp">
+      <Filter>Scripts\ScriptEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_storage.cpp">
+      <Filter>Scripts\ScriptStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_process.cpp">
+      <Filter>Scripts\ScriptProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_thread.cpp">
+      <Filter>Scripts\ScriptThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_stack_tracker.cpp">
+      <Filter>Scripts\ScriptThread\ScriptStackTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_callStack.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_debugger.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_debugger_threads.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\script_lua_helper.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="script_debugger_utils.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="script_file.cpp">
+      <Filter>Scripts\ScriptDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\lua_studio.cpp">
+      <Filter>Scripts\lua_studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\alife_space.cpp">
+      <Filter>ServerStuff\Common\ALifeStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="alife_artefact_order.cpp">
+      <Filter>ServerStuff\Common\ALifeStuff\artefact_order</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\alife_human_brain.cpp">
+      <Filter>ServerStuff\Common\ALifeStuff\human_brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\alife_monster_brain.cpp">
+      <Filter>ServerStuff\Common\ALifeStuff\monster_brain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\PHNetState.cpp">
+      <Filter>ServerStuff\Common\PhysicsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\PHSynchronize.cpp">
+      <Filter>ServerStuff\Common\PhysicsStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\character_info.cpp">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\specific_character.cpp">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="xrUIXmlParser.cpp">
+      <Filter>ServerStuff\Common\ServerStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Factory.cpp">
+      <Filter>ServerStuff\ServerFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_Abstract.cpp">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\gametype_chooser.cpp">
+      <Filter>ServerStuff\ServerEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Object_Base.cpp">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects.cpp">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_script.cpp">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_script2.cpp">
+      <Filter>ServerStuff\ServerEntities\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_script.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_script2.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_script3.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Items.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Items_script.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Items_script2.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Items_script3.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Monsters.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Monsters_script.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Monsters_script2.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrserver_objects_alife_monsters_script3.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_ALife_Monsters_script4.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="properties_list_helper_script.cpp">
+      <Filter>ServerStuff\ServerEntities\scripts\script_properties_list_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="script_properties_list_helper.cpp">
+      <Filter>ServerStuff\ServerEntities\scripts\script_properties_list_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_Alife_Smartcovers.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_smartcover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrServerEntities\xrServer_Objects_Alife_Smartcovers_script.cpp">
+      <Filter>ServerStuff\ServerEntities\objects_alife_smartcover</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

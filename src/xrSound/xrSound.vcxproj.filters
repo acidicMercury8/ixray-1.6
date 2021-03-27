@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{5693f53c-ea58-434d-9a5e-d00e3c936f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4e29e255-3c2f-42c4-921c-d004989ea509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\OpenAL">
+      <UniqueIdentifier>{b0a270d4-f0a7-4125-a178-e0f6cc162a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emitter">
+      <UniqueIdentifier>{14b4859d-b6cc-4c26-b602-d0df78450739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{11285e46-dabe-4290-9128-e5a7dd2a0361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target">
+      <UniqueIdentifier>{e431faeb-2244-40a5-aa1b-f47207657a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target\OpenAL">
+      <UniqueIdentifier>{b200e74b-a071-4d36-8d0b-9798b11310d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{f2ec31a3-1e89-4e85-acff-cddaecd4132a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{4010dfb8-e0b2-4d28-9e58-280bce01c5a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cl_intersect.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALDeviceList.h">
+      <Filter>Core\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_CoreA.h">
+      <Filter>Core\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Emitter.h">
+      <Filter>Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Source.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Target.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_TargetA.h">
+      <Filter>Target\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Environment.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRender_Cache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="guids.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Core_Processor.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Core_SourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Core_StartStop.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALDeviceList.cpp">
+      <Filter>Core\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_CoreA.cpp">
+      <Filter>Core\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Emitter.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Emitter_FSM.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Emitter_StartStop.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Emitter_streamer.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Source_loader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Target.cpp">
+      <Filter>Target</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_TargetA.cpp">
+      <Filter>Target\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Environment.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRender_Cache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{aacdee5c-758f-4e48-8606-6869efe91e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\xrLC_GlobalData">
+      <UniqueIdentifier>{8822c5f8-245e-4890-bec4-1194afb1216d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net">
+      <UniqueIdentifier>{6d368222-c1eb-424a-a829-a29f06227027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net\new">
+      <UniqueIdentifier>{e1f9d4a0-aa54-4c9a-95b6-7de7c450e331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net\new\net_user_gl_data">
+      <UniqueIdentifier>{d258a19b-e633-46fa-83b1-44ba9f1f6d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net\new\net_user_execution">
+      <UniqueIdentifier>{261fc226-dd15-4c04-af2f-1d48ba8d3b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net\new\task_manager">
+      <UniqueIdentifier>{e048b901-a687-4d6a-8b2c-081a023e63e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Net\depr">
+      <UniqueIdentifier>{b4784555-b8de-4dbd-be4b-8b186d34b97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\models">
+      <UniqueIdentifier>{908fbf1b-f29d-4aa5-88c6-c1a6b9ab2224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\models\mu_light">
+      <UniqueIdentifier>{9db5e53d-f8b0-441c-b26d-5442e4bf19e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\LightImplicit">
+      <UniqueIdentifier>{b58fab01-eba0-40a4-8ed0-643b6f946862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\xrDeflector">
+      <UniqueIdentifier>{73b9c7dd-c787-40a0-a62c-019606d2d893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Mesh">
+      <UniqueIdentifier>{68d13c9d-c940-498f-84cf-614e15d72ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\serialize">
+      <UniqueIdentifier>{53f513eb-8088-45ad-a944-b9369c455b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Lightmaps">
+      <UniqueIdentifier>{e7996e06-14e1-420d-8b96-8a73c71d3f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Textures">
+      <UniqueIdentifier>{3c3bbc21-93ca-41a4-92e5-c7ec9607466f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Lights">
+      <UniqueIdentifier>{ffeed060-3e1e-4b41-b850-9d1ce864c284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\color">
+      <UniqueIdentifier>{a816b96a-7255-405d-a4d0-362018d73031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\LightVertex">
+      <UniqueIdentifier>{f9463c46-08ad-430d-a977-395e80aa743c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="do_light">
+      <UniqueIdentifier>{86e709ac-0a6c-409c-82c4-21071a9b9e35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_d3d_extensions.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLC_Light.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrThread.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="hash2D.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_clear.h">
+      <Filter>Light\xrLC_GlobalData</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLC_GlobalData.h">
+      <Filter>Light\xrLC_GlobalData</Filter>
+    </ClInclude>
+    <ClInclude Include="file_compress.h">
+      <Filter>Light\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="light_execute.h">
+      <Filter>Light\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_stream.h">
+      <Filter>Light\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="lightstab_interface.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="net_cl_data_prepare.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_factory.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_globals.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="net_global_data_cleanup.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="net_task_callback.h">
+      <Filter>Light\Net\new</Filter>
+    </ClInclude>
+    <ClInclude Include="detail_net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_base_cl_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="implicit_net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="lc_net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="lm_net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="net_all_globals.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="ref_model_net_global_data.h">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClInclude>
+    <ClInclude Include="lcnet_execution_tasks_add.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_all_executions.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_detail_light.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_implicit_light.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_lightmaps.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_mu_base.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_mu_ref.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="net_execution_vertex_light.h">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClInclude>
+    <ClInclude Include="lcnet_task_manager.h">
+      <Filter>Light\Net\new\task_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="net_exec_pool.h">
+      <Filter>Light\Net\new\task_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="net_light.h">
+      <Filter>Light\Net\depr</Filter>
+    </ClInclude>
+    <ClInclude Include="net_light_task.h">
+      <Filter>Light\Net\depr</Filter>
+    </ClInclude>
+    <ClInclude Include="net_task.h">
+      <Filter>Light\Net\depr</Filter>
+    </ClInclude>
+    <ClInclude Include="net_task_manager.h">
+      <Filter>Light\Net\depr</Filter>
+    </ClInclude>
+    <ClInclude Include="fitter.h">
+      <Filter>Light\models</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_model_face.h">
+      <Filter>Light\models</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_model_face_defs.h">
+      <Filter>Light\models</Filter>
+    </ClInclude>
+    <ClInclude Include="xrMU_Model.h">
+      <Filter>Light\models</Filter>
+    </ClInclude>
+    <ClInclude Include="xrMU_Model_Reference.h">
+      <Filter>Light\models</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_light_net.h">
+      <Filter>Light\models\mu_light</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_model_light.h">
+      <Filter>Light\models\mu_light</Filter>
+    </ClInclude>
+    <ClInclude Include="mu_model_light_threads.h">
+      <Filter>Light\models\mu_light</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLight_Implicit.h">
+      <Filter>Light\LightImplicit</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLight_ImplicitCalcGlobs.h">
+      <Filter>Light\LightImplicit</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLight_ImplicitDeflector.h">
+      <Filter>Light\LightImplicit</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLight_ImplicitRun.h">
+      <Filter>Light\LightImplicit</Filter>
+    </ClInclude>
+    <ClInclude Include="execute_statistics.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="uv_tri.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="xrDeflector.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="xrDeflectorDefs.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="xrImage_Resampler.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="xrIsect.h">
+      <Filter>Light\xrDeflector</Filter>
+    </ClInclude>
+    <ClInclude Include="base_basis.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="base_face.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="calculate_normals.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="itterate_adjacents_static.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshStructure.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="xrFace.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="xrFaceDefs.h">
+      <Filter>Light\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize.h">
+      <Filter>Light\serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="Lightmap.h">
+      <Filter>Light\Lightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="lm_layer.h">
+      <Filter>Light\Lightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="xrImage_Filter.h">
+      <Filter>Light\Lightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="b_build_texture.h">
+      <Filter>Light\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="ETextureParams.h">
+      <Filter>Light\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="tcf.h">
+      <Filter>Light\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="tga.h">
+      <Filter>Light\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="base_lighting.h">
+      <Filter>Light\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="light_point.h">
+      <Filter>Light\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="R_light.h">
+      <Filter>Light\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="base_color.h">
+      <Filter>Light\color</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLightVertex.h">
+      <Filter>Light\LightVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="detail_slot_calculate.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailFormat.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="global_calculation_data.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="global_slots_data.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="LightThread.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="recalculation.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="xrLightDoNet.h">
+      <Filter>do_light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shader_xrLC.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLC_Light.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrThread.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshStaic.cpp">
+      <Filter>Light\xrLC_GlobalData</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLC_GlobalData.cpp">
+      <Filter>Light\xrLC_GlobalData</Filter>
+    </ClCompile>
+    <ClCompile Include="file_compress.cpp">
+      <Filter>Light\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sdk\include\hxgrid\Interface\hxGridInterface.cpp">
+      <Filter>Light\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="light_execute.cpp">
+      <Filter>Light\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_stream.cpp">
+      <Filter>Light\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net_cl_data_prepare.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_factory.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_factory_register.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_globals.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="net_global_data_cleanup.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="net_task_callback.cpp">
+      <Filter>Light\Net\new</Filter>
+    </ClCompile>
+    <ClCompile Include="detail_net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_base_cl_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="implicit_net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="lc_net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="lm_net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="ref_model_net_global_data.cpp">
+      <Filter>Light\Net\new\net_user_gl_data</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_detail_light.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_implicit_light.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_lightmaps.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_mu_base.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_mu_ref.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_execution_vertex_light.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="net_lightmaps_add_task.cpp">
+      <Filter>Light\Net\new\net_user_execution</Filter>
+    </ClCompile>
+    <ClCompile Include="lcnet_task_manager.cpp">
+      <Filter>Light\Net\new\task_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="lcnet_task_menager_run_task.cpp">
+      <Filter>Light\Net\new\task_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="net_exec_pool.cpp">
+      <Filter>Light\Net\new\task_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="net_light.cpp">
+      <Filter>Light\Net\depr</Filter>
+    </ClCompile>
+    <ClCompile Include="net_light_task.cpp">
+      <Filter>Light\Net\depr</Filter>
+    </ClCompile>
+    <ClCompile Include="net_task.cpp">
+      <Filter>Light\Net\depr</Filter>
+    </ClCompile>
+    <ClCompile Include="net_task_manager.cpp">
+      <Filter>Light\Net\depr</Filter>
+    </ClCompile>
+    <ClCompile Include="fitter.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="mu_model_face.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Calc_faceopacity.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Calc_materials.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Calc_normals.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_export_cform_rcast.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Load.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Reference.cpp">
+      <Filter>Light\models</Filter>
+    </ClCompile>
+    <ClCompile Include="mu_light_net.cpp">
+      <Filter>Light\models\mu_light</Filter>
+    </ClCompile>
+    <ClCompile Include="mu_model_light.cpp">
+      <Filter>Light\models\mu_light</Filter>
+    </ClCompile>
+    <ClCompile Include="mu_model_light_threads.cpp">
+      <Filter>Light\models\mu_light</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Calc_lighting.cpp">
+      <Filter>Light\models\mu_light</Filter>
+    </ClCompile>
+    <ClCompile Include="xrMU_Model_Reference_Calc_Lighting.cpp">
+      <Filter>Light\models\mu_light</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLight_ImlicitNet.cpp">
+      <Filter>Light\LightImplicit</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLight_Implicit.cpp">
+      <Filter>Light\LightImplicit</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLight_ImplicitCalcGlobs.cpp">
+      <Filter>Light\LightImplicit</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLight_ImplicitDeflector.cpp">
+      <Filter>Light\LightImplicit</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLight_ImplicitThread.cpp">
+      <Filter>Light\LightImplicit</Filter>
+    </ClCompile>
+    <ClCompile Include="execute_statistics.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="uv_tri.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="xrDeflectoL_Direct.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="xrDeflector.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="xrDeflectorLight.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="xrImage_Resampler.cpp">
+      <Filter>Light\xrDeflector</Filter>
+    </ClCompile>
+    <ClCompile Include="base_basis.cpp">
+      <Filter>Light\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="base_face.cpp">
+      <Filter>Light\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="xrFace.cpp">
+      <Filter>Light\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize.cpp">
+      <Filter>Light\serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightmap.cpp">
+      <Filter>Light\Lightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="lm_layer.cpp">
+      <Filter>Light\Lightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="xrImage_Filter.cpp">
+      <Filter>Light\Lightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="b_build_texture.cpp">
+      <Filter>Light\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="ETextureParams.cpp">
+      <Filter>Light\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="tcf.cpp">
+      <Filter>Light\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="tga.cpp">
+      <Filter>Light\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="base_lighting.cpp">
+      <Filter>Light\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="base_color.cpp">
+      <Filter>Light\color</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLightVertex.cpp">
+      <Filter>Light\LightVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLightVertexNet.cpp">
+      <Filter>Light\LightVertex</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="detail_slot_calculate.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="global_calculation_data.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="global_slots_data.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="LightThread.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="recalculation.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="xrLightDoNet.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xrEngine\xrLoadSurface.cpp">
+      <Filter>do_light</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

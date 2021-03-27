@@ -4,7 +4,6 @@
 #include "xrdebug.h"
 #include "os_clipboard.h"
 
-#include <sal.h>
 #include "dxerr.h"
 
 #pragma warning(push)
@@ -230,7 +229,12 @@ void xrDebug::backend	(const char *expression, const char *description, const ch
 				ignore_always	= true;
 				break;
 			}
-			default : NODEFAULT;
+			default: {
+				::MessageBox(NULL, 
+				             "<no expression>\nnodefault reached", 
+				             "fatal error", 
+				             MB_CANCELTRYCONTINUE | MB_ICONERROR | MB_SYSTEMMODAL);
+			}
 		}
 #	else // USE_OWN_ERROR_MESSAGE_WINDOW
 #		ifdef USE_BUG_TRAP
